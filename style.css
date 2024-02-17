@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+
+}
+.container{
+  display: flex;
+width: 90vw;
+}
+.di{
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  transition: all 700ms ease-in;
+  margin: 10px;
+  flex: 0.5;
+}
+.di.active{
+  flex: 5;
+}
